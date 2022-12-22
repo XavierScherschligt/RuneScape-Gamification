@@ -18,7 +18,7 @@ The XP needed for the next level can be viewed by simply hovering the user's mou
 
 Leveling and XP are based directly on RuneScape - God's speed to 99.
 
-<img src="https://user-images.githubusercontent.com/49327728/208965845-a232d162-56e9-4340-a5dd-b2fda1f234bf.png">
+![image](https://user-images.githubusercontent.com/49327728/209213776-f6dee11a-3ee7-4b01-8131-f0584c3bd6cd.png)
 
 <strong>CHANGELOG</strong>
 
