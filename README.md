@@ -1,4 +1,6 @@
-Anki Gamification inspired by RuneScape, code largely written by Chat-GPT. Currently there are 5 'skills' that users can gain experience in and level up: Focus, Curiosity, Endurance, Recall and Speed.
+Anki <strong>Gamification</strong> inspired by RuneScape, code largely written by Chat-GPT. Currently there are 5 'skills' that users can gain experience in and level up: Focus, Curiosity, Endurance, Recall and Speed.
+
+<strong>FEATURES</strong>
 
 Focus: gain compounding (+0.5) XP for completing reviews in serial. The user receives 0.5 more XP each time they click 'Show Answer' and subsequently rating their answer (clicking again, good or easy) within 90 seconds of seeing the question. If the user does not do both of those actions in that time, or leaves the reviewing screen, exiting back into the deck overview/ dashboard, the XP reward will be reset to 0 and the user will have to build it back up again. This skill motivates the user to remained focused on the task at hand and avoid distractions.
 
@@ -16,7 +18,19 @@ The XP needed for the next level can be viewed by simply hovering the user's mou
 
 Leveling and XP are based directly on RuneScape - God's speed to 99.
 
-![image](https://user-images.githubusercontent.com/49327728/209206519-6acde375-ee97-40be-a2d3-82d680ee8a65.png)
+<img src="https://user-images.githubusercontent.com/49327728/208965845-a232d162-56e9-4340-a5dd-b2fda1f234bf.png">
 
+<strong>CHANGELOG</strong>
 
-Hoping to add more fun animations for XP and leveling, a leaderboard, XP bonuses for reaching predefined daily goals, XP awards for reviewing done on other devices and more when Chat-GPT I get a minute - XS 12/20/22
+Version <strong>1.0.2</strong>  – 12-22-2022
+
+<em>Added</em>
+<ul><li>Added ability to move dock that contains skills<em>(thanks to @cjdduarte for the report)</em></li></ul>
+<em>Fixed</em>
+<ul><li>Fixed size of bottom bar<em>(thanks to @cjdduarte for the report)</em></li></ul>
+Version <strong>1.0.1</strong>  – 12-20-2022
+
+<em>Added</em>
+<ul><li>Added focus skill</li><li>Added curiosity skill</li></ul>
+
+<em>Hoping to add more fun animations for XP and leveling, a leaderboard, XP bonuses for reaching predefined daily goals, XP awards for reviewing done on other devices and more when Chat-GPT &amp; I get a minute - XS 12/21/22</em>
