@@ -17,6 +17,6 @@ The XP needed for the next level can be viewed by simply hovering the user's mou
 Leveling and XP are based directly on RuneScape - God's speed to 99.
 
 
-![image](https://user-images.githubusercontent.com/49327728/208965845-a232d162-56e9-4340-a5dd-b2fda1f234bf.png)
+![image](https://user-images.githubusercontent.com/49327728/209204594-c4fc3837-e976-49cc-80ed-cb6f1cf13212.png)
 
 Hoping to add more fun animations for XP and leveling, a leaderboard, XP bonuses for reaching predefined daily goals, XP awards for reviewing done on other devices and more when Chat-GPT I get a minute - XS 12/20/22
