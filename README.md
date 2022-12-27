@@ -25,7 +25,8 @@ Leveling and XP are based directly on RuneScape - God's speed to 99.
 Version <strong>1.0.3</strong>  – 12-27-2022
 
 <em>Fixed</em>
-<ul><li>Fixed version clash by updating code to be compatible with Anki 2.1.55/Qt 6<em> (thanks to @cjdduarte for the report)</em></li></ul>
+<ul><li>Fixed version clash by updating code to be compatible with Anki 2.1.55/Qt 6<em> (thanks to @cjdduarte for the report)</em></li>
+<li>Fixed color reversion after XP reward when not in dark mode</li></ul>
 Version <strong>1.0.2</strong>  – 12-22-2022
 
 <em>Added</em>
