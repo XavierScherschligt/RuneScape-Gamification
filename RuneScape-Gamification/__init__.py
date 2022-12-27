@@ -47,7 +47,8 @@ def skill_label_color_change(skill_label, duration):
     # sleep for 500 milliseconds
     time.sleep(duration)
     # reset the style sheet of the skill label
-    skill_label.setStyleSheet("color: white;")
+    #skill_label.setStyleSheet("color: white;")
+    skill_label.setStyleSheet("")
 
 def level_up(skill_label, skill):
     # get the dock widget
@@ -58,7 +59,7 @@ def level_up(skill_label, skill):
     skill_label.setStyleSheet("color: green;")
     skill_label.setText("{} {}".format(skill_symbols[skill], skills[skill]["level"]))
     # create a thread to update the position of the skill label
-    thread = threading.Thread(target=skill_label_color_change, args=(skill_label, 3))
+    thread = threading.Thread(target=skill_label_color_change, args=(skill_label, 15))
     thread.start()  # start the thread
     
 def animate_xp_gain(skill):
@@ -69,7 +70,7 @@ def animate_xp_gain(skill):
     # change the text color of the label to orange
     skill_label.setStyleSheet("color: orange;")
     # create a thread to update the position of the skill label
-    thread = threading.Thread(target=skill_label_color_change, args=(skill_label, 0.5))
+    thread = threading.Thread(target=skill_label_color_change, args=(skill_label, 3))
     thread.start()  # start the thread
 
 # define a function to increase the user's progress on a skill
