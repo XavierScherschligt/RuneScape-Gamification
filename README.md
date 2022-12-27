@@ -18,16 +18,20 @@ The XP needed for the next level can be viewed by simply hovering the user's mou
 
 Leveling and XP are based directly on RuneScape - God's speed to 99.
 
-![image](https://user-images.githubusercontent.com/49327728/209213824-8ef4f23c-7ffd-4e0f-a97f-da4c22bad9aa.png)
+<img src="https://user-images.githubusercontent.com/49327728/209213824-8ef4f23c-7ffd-4e0f-a97f-da4c22bad9aa.png">
 
 <strong>CHANGELOG</strong>
 
+Version <strong>1.0.3</strong>  – 12-27-2022
+
+<em>Fixed</em>
+<ul><li>Fixed version clash by updating code to be compatible with Anki 2.1.55/Qt 6<em> (thanks to @cjdduarte for the report)</em></li></ul>
 Version <strong>1.0.2</strong>  – 12-22-2022
 
 <em>Added</em>
-<ul><li>Added ability to move dock that contains skills<em>(thanks to @cjdduarte for the report)</em></li></ul>
+<ul><li>Added ability to move dock that contains skills<em> (thanks to @cjdduarte for the report)</em></li></ul>
 <em>Fixed</em>
-<ul><li>Fixed size of bottom bar<em>(thanks to @cjdduarte for the report)</em></li></ul>
+<ul><li>Fixed size of bottom bar<em> (thanks to @cjdduarte for the report)</em></li></ul>
 Version <strong>1.0.1</strong>  – 12-20-2022
 
 <em>Added</em>
