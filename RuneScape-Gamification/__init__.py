@@ -50,11 +50,9 @@ def skill_label_color_change(skill_label, duration):
     #skill_label.setStyleSheet("color: white;")
     skill_label.setStyleSheet("")
 
-def level_up(skill_label, skill):
-    # get the dock widget
-    dock = mw.findChild(QtWidgets.QDockWidget)    
+def level_up(skill_label, skill):   
     # get the label that displays the skill
-    skill_label = dock.findChild(QtWidgets.QLabel, f"{skill}_label")
+    skill_label = mw.findChild(QtWidgets.QLabel, f"{skill}_label")
     # change the text color of the label to orange
     skill_label.setStyleSheet("color: green;")
     skill_label.setText("{} {}".format(skill_symbols[skill], skills[skill]["level"]))
@@ -63,10 +61,8 @@ def level_up(skill_label, skill):
     thread.start()  # start the thread
     
 def animate_xp_gain(skill):
-    # get the dock widget
-    dock = mw.findChild(QtWidgets.QDockWidget)
     # get the label that displays the skill
-    skill_label = dock.findChild(QtWidgets.QLabel, f"{skill}_label")
+    skill_label = mw.findChild(QtWidgets.QLabel, f"{skill}_label")
     # change the text color of the label to orange
     skill_label.setStyleSheet("color: orange;")
     # create a thread to update the position of the skill label
@@ -81,10 +77,8 @@ def increase_skill_progress(skill, amount):
     if skills[skill]["xp"] >= level_xp[skills[skill]["level"]]:
        skills[skill]["level"] += 1
        skills[skill]["xp"] -= level_xp[skills[skill]["level"] - 1]
-       # get the dock widget
-       dock = mw.findChild(QtWidgets.QDockWidget)
        # get the label that displays the skill
-       skill_label = dock.findChild(QtWidgets.QLabel, f"{skill}_label")
+       skill_label = mw.findChild(QtWidgets.QLabel, f"{skill}_label")
        # update the text of the label to display the updated level
        # show the level up animation for the skill label
        level_up(skill_label, skill)
@@ -93,10 +87,8 @@ def increase_skill_progress(skill, amount):
        animate_xp_gain(skill)
        
 def update_skill_tool_tip(skill):
-    # get the dock widget
-    dock = mw.findChild(QtWidgets.QDockWidget)
     # get the label that displays the skill
-    skill_label = dock.findChild(QtWidgets.QLabel, f"{skill}_label")
+    skill_label = mw.findChild(QtWidgets.QLabel, f"{skill}_label")
     # update the tool tip for the label to display the updated skill level and XP of the tool tip
     skill_label.setToolTip("{} Level {} ({}/{} XP)".format(skill, skills[skill]["level"], skills[skill]["xp"], level_xp[skills[skill]["level"]]))
        
